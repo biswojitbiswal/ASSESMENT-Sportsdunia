@@ -1,0 +1,133 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+
+body{
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+  /* background-color: red; */
+  overflow-x: hidden;
+}
+section{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+.search-box{
+  width: 600px;
+  height: 50px;
+  /* background-color: red; */
+  margin-bottom: 1rem;
+  display: flex;
+  
+}
+.search-input{
+  height: 88%;
+  width: 85%;
+  outline: 0;
+  border: 2px solid rgb(23, 94, 157);
+  border-radius: .75rem 0 0 .75rem;
+  border-right: none;
+  padding-left: .75rem;
+  color: rgb(23, 94, 157);
+  font-size: 1.25rem;
+}
+.search-input::placeholder{
+  color: rgb(23, 94, 157);
+}
+.search-btn{
+  width: 15%;
+  height: 100%;
+  outline: 0;
+  border: 2px solid rgb(23, 94, 157);
+  border-radius: 0 .75rem .75rem 0;
+  background-color: rgb(23, 94, 157);
+  color: white;
+  font-size: 1.75rem;
+}
+table {
+  width: 90%;
+  border-collapse: collapse;
+  border-radius: .5rem;
+}
+
+th {
+  background-color: rgb(23, 94, 157);
+  text-align: left;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+th i{
+  margin-left: .75rem;
+}
+th, td{
+  border: 2px solid wheat;
+  border-radius: .5rem;
+}
+
+td {
+  padding: .5rem;
+  position: relative;
+}
+td h2{
+  color: rgb(23, 94, 157);
+}
+td h3{
+  color: rgb(23, 94, 157);
+}
+thead tr{
+  color: white;
+}
+
+td .featured-indicator{
+  position: absolute;
+  background-color: red;
+  color: white;
+  padding: .5rem 1rem;
+  border-radius: .3rem;
+  right: .5rem;
+  top: .5rem;
+}
